@@ -1,5 +1,6 @@
 const canvas = wx.createCanvas();
 const ctx = canvas.getContext('2d');
+const TEST_VAR = "Hello Github Desktop";
 
 // 适配屏幕
 const screenWidth = wx.getSystemInfoSync().windowWidth;
